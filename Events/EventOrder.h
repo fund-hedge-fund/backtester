@@ -1,0 +1,8 @@
+//
+// Created by 615 on 09.06.2021.
+//
+
+#ifndef BACKTESTER_EVENTORDER_H
+#define BACKTESTER_EVENTORDER_H
+
+#endif //BACKTESTER_EVENTORDER_H

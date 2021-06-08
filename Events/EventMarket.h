@@ -1,0 +1,8 @@
+//
+// Created by 615 on 09.06.2021.
+//
+
+#ifndef BACKTESTER_EVENTMARKET_H
+#define BACKTESTER_EVENTMARKET_H
+
+#endif //BACKTESTER_EVENTMARKET_H

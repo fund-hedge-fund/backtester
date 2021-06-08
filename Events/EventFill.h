@@ -1,0 +1,8 @@
+//
+// Created by 615 on 09.06.2021.
+//
+
+#ifndef BACKTESTER_EVENTFILL_H
+#define BACKTESTER_EVENTFILL_H
+
+#endif //BACKTESTER_EVENTFILL_H
