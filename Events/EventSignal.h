@@ -1,8 +1,12 @@
-//
-// Created by 615 on 09.06.2021.
-//
+#pragma once
+#include "Events.h"
+#include <string>
 
-#ifndef BACKTESTER_EVENTSIGNAL_H
-#define BACKTESTER_EVENTSIGNAL_H
+class SignalEvent: public EventAbstract {
+public:
+    std::string symbol;
+    long timestamp;
+    double strength;
 
-#endif //BACKTESTER_EVENTSIGNAL_H
+    SignalEvent(std::string symbol, long timestamp);
+};

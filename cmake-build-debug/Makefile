@@ -169,6 +169,33 @@ DataHandling/MarketDataFrame.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.s
 .PHONY : DataHandling/MarketDataFrame.cpp.s
 
+DataHandling/YahooCSVReader.obj: DataHandling/YahooCSVReader.cpp.obj
+
+.PHONY : DataHandling/YahooCSVReader.obj
+
+# target to build an object file
+DataHandling/YahooCSVReader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj
+.PHONY : DataHandling/YahooCSVReader.cpp.obj
+
+DataHandling/YahooCSVReader.i: DataHandling/YahooCSVReader.cpp.i
+
+.PHONY : DataHandling/YahooCSVReader.i
+
+# target to preprocess a source file
+DataHandling/YahooCSVReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.i
+.PHONY : DataHandling/YahooCSVReader.cpp.i
+
+DataHandling/YahooCSVReader.s: DataHandling/YahooCSVReader.cpp.s
+
+.PHONY : DataHandling/YahooCSVReader.s
+
+# target to generate assembly for a file
+DataHandling/YahooCSVReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.s
+.PHONY : DataHandling/YahooCSVReader.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -208,6 +235,9 @@ help:
 	@echo ... DataHandling/MarketDataFrame.obj
 	@echo ... DataHandling/MarketDataFrame.i
 	@echo ... DataHandling/MarketDataFrame.s
+	@echo ... DataHandling/YahooCSVReader.obj
+	@echo ... DataHandling/YahooCSVReader.i
+	@echo ... DataHandling/YahooCSVReader.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

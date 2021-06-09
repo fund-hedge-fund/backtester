@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj"
+  "CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj"
   "CMakeFiles/backtester.dir/main.cpp.obj"
   "backtester.exe"
   "backtester.exe.manifest"

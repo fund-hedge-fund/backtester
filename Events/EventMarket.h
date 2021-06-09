@@ -1,8 +1,8 @@
-//
-// Created by 615 on 09.06.2021.
-//
+#pragma once
+#include "Events.h"
 
-#ifndef BACKTESTER_EVENTMARKET_H
-#define BACKTESTER_EVENTMARKET_H
+class MarketEvent: public EventAbstract {
 
-#endif //BACKTESTER_EVENTMARKET_H
+    public:
+        MarketEvent();
+};

@@ -1,8 +1,18 @@
-//
-// Created by 615 on 09.06.2021.
-//
+#pragma once
+#include "Events.h"
+#include <string>
 
-#ifndef BACKTESTER_EVENTFILL_H
-#define BACKTESTER_EVENTFILL_H
+class FillEvent: public EventAbstract {
+public:
+    long timestamp;
+    std::string symbol;
+    std::string exchange;
+    int quantity;
+    std::string direction;
+    double slippage;
+    double commission;
 
-#endif //BACKTESTER_EVENTFILL_H
+    FillEvent(long timeindex, std::string symbol, std::string exchange, int quantity, std::string direction,
+              double fill_cost, double commission);
+
+};

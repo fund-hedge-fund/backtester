@@ -89,6 +89,12 @@
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/MarketDataFrame.h">
 			<Option target="backtester"/>
 		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/YahooCSVReader.cpp">
+			<Option target="backtester"/>
+		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/YahooCSVReader.h">
+			<Option target="backtester"/>
+		</Unit>
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventFill.h">
 			<Option target="backtester"/>
 		</Unit>

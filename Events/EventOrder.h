@@ -1,8 +1,16 @@
-//
-// Created by 615 on 09.06.2021.
-//
+#pragma once
+#include <string>
+#include "Events.h"
 
-#ifndef BACKTESTER_EVENTORDER_H
-#define BACKTESTER_EVENTORDER_H
 
-#endif //BACKTESTER_EVENTORDER_H
+class OrderEvent: public EventAbstract {
+public:
+    std::string symbol;
+    std::string order_type;
+    std::string direction;
+    int quantity;
+
+    OrderEvent(std::string symbol, std::string order_type, int quantity, std::string direction);
+
+    OrderEvent();
+};

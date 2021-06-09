@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/615/CLionProjects/untitled2/DataHandling/MarketDataFrame.cpp" "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj"
+  "C:/Users/615/CLionProjects/untitled2/DataHandling/YahooCSVReader.cpp" "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj"
   "C:/Users/615/CLionProjects/untitled2/main.cpp" "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/backtester.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
