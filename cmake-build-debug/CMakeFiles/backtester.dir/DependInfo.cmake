@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/615/CLionProjects/untitled2/DataHandling/MarketDataFrame.cpp" "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj"
-  "C:/Users/615/CLionProjects/untitled2/main.cpp" "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/backtester.dir/main.cpp.obj"
+  "/Users/alexeyivashka/Desktop/Cpp/backtester/DataHandling/MarketDataFrame.cpp" "/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.o"
+  "/Users/alexeyivashka/Desktop/Cpp/backtester/main.cpp" "/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/CMakeFiles/backtester.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -8,112 +8,110 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/615/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option working_dir="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/615/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option working_dir="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="backtester">
-				<Option output="C:/Users/615/CLionProjects/untitled2/cmake-build-debug/backtester.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/615/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtester"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="backtester/fast">
-				<Option output="C:/Users/615/CLionProjects/untitled2/cmake-build-debug/backtester.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/615/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtester/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/615/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option working_dir="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/615/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtester">
+				<Option output="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/backtester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtester"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="backtester/fast">
+				<Option output="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/backtester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 backtester/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/alexeyivashka/Desktop/Cpp/backtester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/AbstractData.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/DataHandling/AbstractData.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/MarketDataFrame.cpp">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/DataHandling/MarketDataFrame.cpp">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/MarketDataFrame.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/DataHandling/MarketDataFrame.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventFill.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Events/EventFill.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventMarket.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Events/EventMarket.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventOrder.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Events/EventOrder.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventSignal.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Events/EventSignal.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/Events.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Events/Events.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/ExecutionHandler/AbstractExecutionHandler.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/ExecutionHandler/AbstractExecutionHandler.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/Strategy/AbstractStrategy.h">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/Strategy/AbstractStrategy.h">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/main.cpp">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/main.cpp">
 			<Option target="backtester"/>
 		</Unit>
-		<Unit filename="C:/Users/615/CLionProjects/untitled2/CMakeLists.txt">
+		<Unit filename="/Users/alexeyivashka/Desktop/Cpp/backtester/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj"
-  "CMakeFiles/backtester.dir/main.cpp.obj"
-  "backtester.exe"
-  "backtester.exe.manifest"
+  "CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.o"
+  "CMakeFiles/backtester.dir/main.cpp.o"
+  "backtester"
   "backtester.pdb"
-  "libbacktester.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
