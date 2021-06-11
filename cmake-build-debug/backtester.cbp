@@ -95,13 +95,28 @@
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/DataHandling/YahooCSVReader.h">
 			<Option target="backtester"/>
 		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventFIll.cpp">
+			<Option target="backtester"/>
+		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventFIll.h">
+			<Option target="backtester"/>
+		</Unit>
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventFill.h">
+			<Option target="backtester"/>
+		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventMarket.cpp">
 			<Option target="backtester"/>
 		</Unit>
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventMarket.h">
 			<Option target="backtester"/>
 		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventOrder.cpp">
+			<Option target="backtester"/>
+		</Unit>
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventOrder.h">
+			<Option target="backtester"/>
+		</Unit>
+		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventSignal.cpp">
 			<Option target="backtester"/>
 		</Unit>
 		<Unit filename="C:/Users/615/CLionProjects/untitled2/Events/EventSignal.h">

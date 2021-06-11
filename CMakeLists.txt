@@ -3,4 +3,4 @@ project(backtester)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(backtester main.cpp DataHandling/MarketDataFrame.h DataHandling/MarketDataFrame.cpp DataHandling/AbstractData.h Strategy/AbstractStrategy.h ExecutionHandler/AbstractExecutionHandler.h Events/Events.h Events/EventOrder.h Events/EventSignal.h Events/EventMarket.h Events/EventFill.h DataHandling/YahooCSVReader.h DataHandling/YahooCSVReader.cpp)
+add_executable(backtester main.cpp DataHandling/MarketDataFrame.h DataHandling/MarketDataFrame.cpp DataHandling/AbstractData.h Strategy/AbstractStrategy.h ExecutionHandler/AbstractExecutionHandler.h Events/Events.h Events/EventOrder.h Events/EventSignal.h Events/EventMarket.h Events/EventFill.h DataHandling/YahooCSVReader.h DataHandling/YahooCSVReader.cpp Events/EventFIll.cpp Events/EventMarket.cpp Events/EventOrder.cpp Events/EventSignal.cpp)

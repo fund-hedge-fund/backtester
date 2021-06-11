@@ -196,6 +196,114 @@ DataHandling/YahooCSVReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.s
 .PHONY : DataHandling/YahooCSVReader.cpp.s
 
+Events/EventFIll.obj: Events/EventFIll.cpp.obj
+
+.PHONY : Events/EventFIll.obj
+
+# target to build an object file
+Events/EventFIll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj
+.PHONY : Events/EventFIll.cpp.obj
+
+Events/EventFIll.i: Events/EventFIll.cpp.i
+
+.PHONY : Events/EventFIll.i
+
+# target to preprocess a source file
+Events/EventFIll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventFIll.cpp.i
+.PHONY : Events/EventFIll.cpp.i
+
+Events/EventFIll.s: Events/EventFIll.cpp.s
+
+.PHONY : Events/EventFIll.s
+
+# target to generate assembly for a file
+Events/EventFIll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventFIll.cpp.s
+.PHONY : Events/EventFIll.cpp.s
+
+Events/EventMarket.obj: Events/EventMarket.cpp.obj
+
+.PHONY : Events/EventMarket.obj
+
+# target to build an object file
+Events/EventMarket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj
+.PHONY : Events/EventMarket.cpp.obj
+
+Events/EventMarket.i: Events/EventMarket.cpp.i
+
+.PHONY : Events/EventMarket.i
+
+# target to preprocess a source file
+Events/EventMarket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventMarket.cpp.i
+.PHONY : Events/EventMarket.cpp.i
+
+Events/EventMarket.s: Events/EventMarket.cpp.s
+
+.PHONY : Events/EventMarket.s
+
+# target to generate assembly for a file
+Events/EventMarket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventMarket.cpp.s
+.PHONY : Events/EventMarket.cpp.s
+
+Events/EventOrder.obj: Events/EventOrder.cpp.obj
+
+.PHONY : Events/EventOrder.obj
+
+# target to build an object file
+Events/EventOrder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj
+.PHONY : Events/EventOrder.cpp.obj
+
+Events/EventOrder.i: Events/EventOrder.cpp.i
+
+.PHONY : Events/EventOrder.i
+
+# target to preprocess a source file
+Events/EventOrder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventOrder.cpp.i
+.PHONY : Events/EventOrder.cpp.i
+
+Events/EventOrder.s: Events/EventOrder.cpp.s
+
+.PHONY : Events/EventOrder.s
+
+# target to generate assembly for a file
+Events/EventOrder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventOrder.cpp.s
+.PHONY : Events/EventOrder.cpp.s
+
+Events/EventSignal.obj: Events/EventSignal.cpp.obj
+
+.PHONY : Events/EventSignal.obj
+
+# target to build an object file
+Events/EventSignal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj
+.PHONY : Events/EventSignal.cpp.obj
+
+Events/EventSignal.i: Events/EventSignal.cpp.i
+
+.PHONY : Events/EventSignal.i
+
+# target to preprocess a source file
+Events/EventSignal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventSignal.cpp.i
+.PHONY : Events/EventSignal.cpp.i
+
+Events/EventSignal.s: Events/EventSignal.cpp.s
+
+.PHONY : Events/EventSignal.s
+
+# target to generate assembly for a file
+Events/EventSignal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\backtester.dir\build.make CMakeFiles/backtester.dir/Events/EventSignal.cpp.s
+.PHONY : Events/EventSignal.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -238,6 +346,18 @@ help:
 	@echo ... DataHandling/YahooCSVReader.obj
 	@echo ... DataHandling/YahooCSVReader.i
 	@echo ... DataHandling/YahooCSVReader.s
+	@echo ... Events/EventFIll.obj
+	@echo ... Events/EventFIll.i
+	@echo ... Events/EventFIll.s
+	@echo ... Events/EventMarket.obj
+	@echo ... Events/EventMarket.i
+	@echo ... Events/EventMarket.s
+	@echo ... Events/EventOrder.obj
+	@echo ... Events/EventOrder.i
+	@echo ... Events/EventOrder.s
+	@echo ... Events/EventSignal.obj
+	@echo ... Events/EventSignal.i
+	@echo ... Events/EventSignal.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

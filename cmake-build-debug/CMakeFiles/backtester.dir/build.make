@@ -115,11 +115,67 @@ CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\615\CLionProjects\untitled2\DataHandling\YahooCSVReader.cpp -o CMakeFiles\backtester.dir\DataHandling\YahooCSVReader.cpp.s
 
+CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj: CMakeFiles/backtester.dir/flags.make
+CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj: ../Events/EventFIll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\backtester.dir\Events\EventFIll.cpp.obj -c C:\Users\615\CLionProjects\untitled2\Events\EventFIll.cpp
+
+CMakeFiles/backtester.dir/Events/EventFIll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/backtester.dir/Events/EventFIll.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\615\CLionProjects\untitled2\Events\EventFIll.cpp > CMakeFiles\backtester.dir\Events\EventFIll.cpp.i
+
+CMakeFiles/backtester.dir/Events/EventFIll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtester.dir/Events/EventFIll.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\615\CLionProjects\untitled2\Events\EventFIll.cpp -o CMakeFiles\backtester.dir\Events\EventFIll.cpp.s
+
+CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj: CMakeFiles/backtester.dir/flags.make
+CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj: ../Events/EventMarket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\backtester.dir\Events\EventMarket.cpp.obj -c C:\Users\615\CLionProjects\untitled2\Events\EventMarket.cpp
+
+CMakeFiles/backtester.dir/Events/EventMarket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/backtester.dir/Events/EventMarket.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\615\CLionProjects\untitled2\Events\EventMarket.cpp > CMakeFiles\backtester.dir\Events\EventMarket.cpp.i
+
+CMakeFiles/backtester.dir/Events/EventMarket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtester.dir/Events/EventMarket.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\615\CLionProjects\untitled2\Events\EventMarket.cpp -o CMakeFiles\backtester.dir\Events\EventMarket.cpp.s
+
+CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj: CMakeFiles/backtester.dir/flags.make
+CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj: ../Events/EventOrder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\backtester.dir\Events\EventOrder.cpp.obj -c C:\Users\615\CLionProjects\untitled2\Events\EventOrder.cpp
+
+CMakeFiles/backtester.dir/Events/EventOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/backtester.dir/Events/EventOrder.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\615\CLionProjects\untitled2\Events\EventOrder.cpp > CMakeFiles\backtester.dir\Events\EventOrder.cpp.i
+
+CMakeFiles/backtester.dir/Events/EventOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtester.dir/Events/EventOrder.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\615\CLionProjects\untitled2\Events\EventOrder.cpp -o CMakeFiles\backtester.dir\Events\EventOrder.cpp.s
+
+CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj: CMakeFiles/backtester.dir/flags.make
+CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj: ../Events/EventSignal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\backtester.dir\Events\EventSignal.cpp.obj -c C:\Users\615\CLionProjects\untitled2\Events\EventSignal.cpp
+
+CMakeFiles/backtester.dir/Events/EventSignal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/backtester.dir/Events/EventSignal.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\615\CLionProjects\untitled2\Events\EventSignal.cpp > CMakeFiles\backtester.dir\Events\EventSignal.cpp.i
+
+CMakeFiles/backtester.dir/Events/EventSignal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/backtester.dir/Events/EventSignal.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\615\CLionProjects\untitled2\Events\EventSignal.cpp -o CMakeFiles\backtester.dir\Events\EventSignal.cpp.s
+
 # Object files for target backtester
 backtester_OBJECTS = \
 "CMakeFiles/backtester.dir/main.cpp.obj" \
 "CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj" \
-"CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj"
+"CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj" \
+"CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj" \
+"CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj" \
+"CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj" \
+"CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj"
 
 # External object files for target backtester
 backtester_EXTERNAL_OBJECTS =
@@ -127,11 +183,15 @@ backtester_EXTERNAL_OBJECTS =
 backtester.exe: CMakeFiles/backtester.dir/main.cpp.obj
 backtester.exe: CMakeFiles/backtester.dir/DataHandling/MarketDataFrame.cpp.obj
 backtester.exe: CMakeFiles/backtester.dir/DataHandling/YahooCSVReader.cpp.obj
+backtester.exe: CMakeFiles/backtester.dir/Events/EventFIll.cpp.obj
+backtester.exe: CMakeFiles/backtester.dir/Events/EventMarket.cpp.obj
+backtester.exe: CMakeFiles/backtester.dir/Events/EventOrder.cpp.obj
+backtester.exe: CMakeFiles/backtester.dir/Events/EventSignal.cpp.obj
 backtester.exe: CMakeFiles/backtester.dir/build.make
 backtester.exe: CMakeFiles/backtester.dir/linklibs.rsp
 backtester.exe: CMakeFiles/backtester.dir/objects1.rsp
 backtester.exe: CMakeFiles/backtester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable backtester.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\615\CLionProjects\untitled2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable backtester.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\backtester.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
