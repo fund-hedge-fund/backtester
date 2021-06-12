@@ -5,7 +5,7 @@
 SignalEvent::SignalEvent(std::string symbol, long timestamp, std::string side) {
     
     type = "SIGNAL";
-    symbol = i_symbol;
+    symbol = symbol;
     timestamp = timestamp;
     side = side;
 }

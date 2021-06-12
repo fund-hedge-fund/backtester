@@ -1,4 +1,8 @@
 "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\615\CLionProjects\untitled2
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/615/CLionProjects/untitled2/cmake-build-debug
+-- Could NOT find CURL (missing: CURL_LIBRARY CURL_INCLUDE_DIR) 
+CMake Error at CMakeLists.txt:12 (MESSAGE):
+  Could not find the CURL library and development files.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/615/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
